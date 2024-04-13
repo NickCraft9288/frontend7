@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://p0.nicelocal.co.nl/preview/IiBEIXyyfJvp-YDTd4pvug/1120x700x85/1/1/c/original_61585591f049f220dd5ea738_61596c0d9c49a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/*@media only screen and (max-width: 768px) {
+  body {
+    background-size: contain;
+  }
+}*/
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+nav ul {
+  color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+  color: #fff;
+}
+
+main {
+  color: #fff;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.lorem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.about-us {
+  margin-top: 20px;
+  color: #fff;
+}/*# sourceMappingURL=Style.css.map */
